@@ -39,7 +39,4 @@
 	[self changeWord];
 }
 
-@synthesize Chinese;
-@synthesize English;
-@synthesize test;
 @end
