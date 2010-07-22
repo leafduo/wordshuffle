@@ -18,5 +18,4 @@
 
 @property (retain) NSTextField* Chinese;
 @property (retain) NSTextField* English;
-@property BOOL test;
 @end
