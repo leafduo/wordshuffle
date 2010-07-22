@@ -13,4 +13,8 @@
 	[English setHidden:YES];
 
 }
+
+- (void)awakeFromNib {
+	[NSTimer scheduledTimerWithTimeInterval:2 target:self selector:@selector(Change:) userInfo:nil repeats:YES];
+}
 @end
