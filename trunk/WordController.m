@@ -16,5 +16,6 @@
 
 - (void)awakeFromNib {
 	[NSTimer scheduledTimerWithTimeInterval:2 target:self selector:@selector(Change) userInfo:nil repeats:NO];
+	[window setTitle:@"empty"];
 }
 @end
