@@ -9,7 +9,7 @@
 
 @implementation WordController
 - (void)changeWord {
-	if (test) {
+	/*if (test) {
 		[Chinese setStringValue:@"测试"];
 		[English setStringValue:@"test"];
 		test = NO;
@@ -17,7 +17,11 @@
 		[Chinese setStringValue:@"苹果"];
 		[English setStringValue:@"apple"];
 		test = YES;
-	}
+	}*/
+	
+	WordPicker *picker = [WordPicker init];
+	[picker next];
+	[English setStringValue:[picker english]];
 
 	[Chinese setHidden:YES];
 	[NSTimer scheduledTimerWithTimeInterval:3 target:self selector:@selector(displayTranslation) userInfo:nil repeats:NO];
