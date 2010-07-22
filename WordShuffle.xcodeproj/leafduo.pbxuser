@@ -10,7 +10,7 @@
 	256AC3D80F4B6AC300CF3369 /* WordShuffleAppDelegate.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1171, 570}}";
-			sepNavSelRange = "{0, 0}";
+			sepNavSelRange = "{322, 0}";
 			sepNavVisRange = "{0, 322}";
 		};
 	};
@@ -24,7 +24,7 @@
 	256AC3F00F4B6AF500CF3369 /* WordShuffle_Prefix.pch */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1171, 570}}";
-			sepNavSelRange = "{0, 0}";
+			sepNavSelRange = "{152, 0}";
 			sepNavVisRange = "{0, 153}";
 		};
 	};
@@ -32,6 +32,9 @@
 		activeBuildConfigurationName = Debug;
 		activeExecutable = 920AACC211F8277B00C6DC7A /* WordShuffle */;
 		activeTarget = 8D1107260486CEB800E47090 /* WordShuffle */;
+		addToTargets = (
+			8D1107260486CEB800E47090 /* WordShuffle */,
+		);
 		codeSenseManager = 920AACD111F8279D00C6DC7A /* Code sense */;
 		executables = (
 			920AACC211F8277B00C6DC7A /* WordShuffle */,
