@@ -11,5 +11,5 @@
     IBOutlet NSTextField* Chinese;
     IBOutlet NSTextField* English;
 }
-- (IBAction)Change:(id)sender;
+- (void)Change;
 @end
