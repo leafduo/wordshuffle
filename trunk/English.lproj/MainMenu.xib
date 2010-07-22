@@ -13,7 +13,7 @@
 		<object class="NSMutableArray" key="IBDocument.EditedObjectIDs">
 			<bool key="EncodedWithXMLCoder">YES</bool>
 			<integer value="29"/>
-			<integer value="371"/>
+			<integer value="372"/>
 		</object>
 		<object class="NSArray" key="IBDocument.PluginDependencies">
 			<bool key="EncodedWithXMLCoder">YES</bool>
@@ -1318,7 +1318,7 @@
 			<object class="NSWindowTemplate" id="972006081">
 				<int key="NSWindowStyleMask">8211</int>
 				<int key="NSWindowBacking">2</int>
-				<string key="NSWindowRect">{{335, 390}, {480, 360}}</string>
+				<string key="NSWindowRect">{{1085, 69}, {270, 62}}</string>
 				<int key="NSWTFlags">1954021376</int>
 				<string key="NSWindowTitle">WordShuffle</string>
 				<string key="NSWindowClass">NSPanel</string>
@@ -1332,17 +1332,17 @@
 						<object class="NSTextField" id="319304607">
 							<reference key="NSNextResponder" ref="439893737"/>
 							<int key="NSvFlags">268</int>
-							<string key="NSFrame">{{61, 225}, {116, 17}}</string>
+							<string key="NSFrame">{{17, 20}, {116, 22}}</string>
 							<reference key="NSSuperview" ref="439893737"/>
 							<bool key="NSEnabled">YES</bool>
 							<object class="NSTextFieldCell" key="NSCell" id="333150015">
 								<int key="NSCellFlags">68288064</int>
 								<int key="NSCellFlags2">272634880</int>
 								<string key="NSContents">English</string>
-								<object class="NSFont" key="NSSupport" id="99794897">
+								<object class="NSFont" key="NSSupport" id="406748780">
 									<string key="NSName">LucidaGrande</string>
-									<double key="NSSize">13</double>
-									<int key="NSfFlags">1044</int>
+									<double key="NSSize">18</double>
+									<int key="NSfFlags">16</int>
 								</object>
 								<reference key="NSControlView" ref="319304607"/>
 								<object class="NSColor" key="NSBackgroundColor" id="304910018">
@@ -1368,25 +1368,25 @@
 						<object class="NSTextField" id="640738972">
 							<reference key="NSNextResponder" ref="439893737"/>
 							<int key="NSvFlags">268</int>
-							<string key="NSFrame">{{133, 122}, {118, 17}}</string>
+							<string key="NSFrame">{{135, 20}, {118, 22}}</string>
 							<reference key="NSSuperview" ref="439893737"/>
 							<bool key="NSEnabled">YES</bool>
 							<object class="NSTextFieldCell" key="NSCell" id="770005186">
 								<int key="NSCellFlags">68288064</int>
 								<int key="NSCellFlags2">272634880</int>
 								<string key="NSContents">Chinese</string>
-								<reference key="NSSupport" ref="99794897"/>
+								<reference key="NSSupport" ref="406748780"/>
 								<reference key="NSControlView" ref="640738972"/>
 								<reference key="NSBackgroundColor" ref="304910018"/>
 								<reference key="NSTextColor" ref="596920561"/>
 							</object>
 						</object>
 					</object>
-					<string key="NSFrameSize">{480, 360}</string>
+					<string key="NSFrameSize">{270, 62}</string>
 					<reference key="NSSuperview"/>
 					<int key="NSViewLayerContentsRedrawPolicy">2</int>
 				</object>
-				<string key="NSScreenRect">{{0, 0}, {1920, 1178}}</string>
+				<string key="NSScreenRect">{{0, 0}, {1440, 878}}</string>
 				<string key="NSMaxSize">{1.79769e+308, 1.79769e+308}</string>
 			</object>
 			<object class="NSCustomObject" id="976324537">
@@ -2098,14 +2098,6 @@
 					</object>
 					<int key="connectionID">547</int>
 				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBOutletConnection" key="connection">
-						<string key="label">window</string>
-						<reference key="source" ref="650035217"/>
-						<reference key="destination" ref="972006081"/>
-					</object>
-					<int key="connectionID">549</int>
-				</object>
 			</object>
 			<object class="IBMutableOrderedSet" key="objectRecords">
 				<object class="NSArray" key="orderedObjects">
@@ -2661,8 +2653,8 @@
 						<reference key="object" ref="439893737"/>
 						<object class="NSMutableArray" key="children">
 							<bool key="EncodedWithXMLCoder">YES</bool>
-							<reference ref="640738972"/>
 							<reference ref="319304607"/>
+							<reference ref="640738972"/>
 						</object>
 						<reference key="parent" ref="972006081"/>
 					</object>
@@ -3413,7 +3405,6 @@
 					<string>534.IBPluginDependency</string>
 					<string>535.IBPluginDependency</string>
 					<string>536.IBPluginDependency</string>
-					<string>537.IBPluginDependency</string>
 					<string>56.IBPluginDependency</string>
 					<string>56.ImportedFromIB2</string>
 					<string>57.IBEditorWindowLastContentRect</string>
@@ -3555,7 +3546,7 @@
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<integer value="1"/>
 					<string>{{525, 802}, {197, 73}}</string>
-					<string>{{829, 713}, {451, 20}}</string>
+					<string>{{535, 713}, {451, 20}}</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<integer value="1"/>
 					<string>{74, 862}</string>
@@ -3580,9 +3571,9 @@
 					<integer value="1"/>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<integer value="1"/>
-					<string>{{378, 73}, {480, 360}}</string>
+					<string>{{476, 229}, {270, 62}}</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
-					<string>{{378, 73}, {480, 360}}</string>
+					<string>{{476, 229}, {270, 62}}</string>
 					<integer value="1"/>
 					<string>{{33, 99}, {480, 360}}</string>
 					<string>{3.40282e+38, 3.40282e+38}</string>
@@ -3672,7 +3663,6 @@
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
-					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<integer value="1"/>
 					<string>{{286, 129}, {275, 183}}</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
@@ -3738,13 +3728,11 @@
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<string>Chinese</string>
 							<string>English</string>
-							<string>window</string>
 						</object>
 						<object class="NSMutableArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<string>NSTextField</string>
 							<string>NSTextField</string>
-							<string>id</string>
 						</object>
 					</object>
 					<object class="NSMutableDictionary" key="toOneOutletInfosByName">
@@ -3753,7 +3741,6 @@
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<string>Chinese</string>
 							<string>English</string>
-							<string>window</string>
 						</object>
 						<object class="NSMutableArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
@@ -3764,10 +3751,6 @@
 							<object class="IBToOneOutletInfo">
 								<string key="name">English</string>
 								<string key="candidateClassName">NSTextField</string>
-							</object>
-							<object class="IBToOneOutletInfo">
-								<string key="name">window</string>
-								<string key="candidateClassName">id</string>
 							</object>
 						</object>
 					</object>
