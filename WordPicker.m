@@ -11,6 +11,8 @@
 
 @implementation WordPicker
 
+@synthesize chinese, english;
+
 - (void)next {
 	if (test) {
 		chinese = @"测试";
@@ -21,6 +23,13 @@
 		english	= @"apple";
 		test = YES;
 	}
+}
+
+- (id)init {
+	if (self = [super init]) {
+		test = YES;
+	}
+	return self;
 }
 
 @end

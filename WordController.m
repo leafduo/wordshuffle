@@ -6,22 +6,13 @@
 //
 
 #import "WordController.h"
+#import "WordPicker.h"
 
 @implementation WordController
 - (void)changeWord {
-	/*if (test) {
-		[Chinese setStringValue:@"测试"];
-		[English setStringValue:@"test"];
-		test = NO;
-	} else {
-		[Chinese setStringValue:@"苹果"];
-		[English setStringValue:@"apple"];
-		test = YES;
-	}*/
-	
-	WordPicker *picker = [WordPicker init];
 	[picker next];
-	[English setStringValue:[picker english]];
+	[English setStringValue:picker.english];
+	[Chinese setStringValue:picker.chinese];
 
 	[Chinese setHidden:YES];
 	[NSTimer scheduledTimerWithTimeInterval:3 target:self selector:@selector(displayTranslation) userInfo:nil repeats:NO];
@@ -34,12 +25,21 @@
 
 - (id)init {
 	if (self = [super init]) {
-		test = YES;
+		picker = [[WordPicker alloc] init];
 	}
 	return self;
+}
+
+- (void)dealloc {
+	[picker release];
+	[super dealloc];
 }
 
 - (void)awakeFromNib {
 	[self changeWord];
 }
+
+@synthesize Chinese;
+@synthesize English;
+@synthesize test;
 @end

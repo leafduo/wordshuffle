@@ -6,11 +6,17 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "WordPicker.h"
 
 @interface WordController : NSObject {
     IBOutlet NSTextField* Chinese;
     IBOutlet NSTextField* English;
-	BOOL test;
+	WordPicker *picker;
 }
+
 - (void)changeWord;
+
+@property (retain) NSTextField* Chinese;
+@property (retain) NSTextField* English;
+@property BOOL test;
 @end
