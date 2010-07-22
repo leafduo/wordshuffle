@@ -8,14 +8,34 @@
 #import "WordController.h"
 
 @implementation WordController
-- (void)Change {
-    [Chinese setStringValue:@"test"];
-	[English setHidden:YES];
+- (void)changeWord {
+	if (test) {
+		[Chinese setStringValue:@"测试"];
+		[English setStringValue:@"test"];
+		test = NO;
+	} else {
+		[Chinese setStringValue:@"苹果"];
+		[English setStringValue:@"apple"];
+		test = YES;
+	}
 
+	[Chinese setHidden:YES];
+	[NSTimer scheduledTimerWithTimeInterval:3 target:self selector:@selector(displayTranslation) userInfo:nil repeats:NO];
+}
+
+- (void)displayTranslation {
+	[Chinese setHidden:NO];
+	[NSTimer scheduledTimerWithTimeInterval:2 target:self selector:@selector(changeWord) userInfo:nil repeats:NO];
+}
+
+- (id)init {
+	if (self = [super init]) {
+		test = YES;
+	}
+	return self;
 }
 
 - (void)awakeFromNib {
-	[NSTimer scheduledTimerWithTimeInterval:2 target:self selector:@selector(Change) userInfo:nil repeats:NO];
-	[window setTitle:@"empty"];
+	[self changeWord];
 }
 @end

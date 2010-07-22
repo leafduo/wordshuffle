@@ -10,7 +10,7 @@
 @interface WordController : NSObject {
     IBOutlet NSTextField* Chinese;
     IBOutlet NSTextField* English;
-	IBOutlet id window;
+	BOOL test;
 }
-- (void)Change;
+- (void)changeWord;
 @end
