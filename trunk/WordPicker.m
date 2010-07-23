@@ -11,8 +11,6 @@
 
 @implementation WordPicker
 
-@synthesize chinese, english;
-
 - (void)next {
 	if (test) {
 		chinese = @"测试";
@@ -32,4 +30,5 @@
 	return self;
 }
 
+@synthesize chinese, english;
 @end

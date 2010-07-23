@@ -16,6 +16,4 @@
 
 - (void)changeWord;
 
-@property (retain) NSTextField* Chinese;
-@property (retain) NSTextField* English;
 @end
