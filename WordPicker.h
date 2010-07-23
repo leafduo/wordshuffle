@@ -12,7 +12,6 @@
 @interface WordPicker : NSObject {
 	BOOL test;
 	NSString *chinese, *english;
-
 }
 
 @property(readonly) NSString *chinese, *english;
