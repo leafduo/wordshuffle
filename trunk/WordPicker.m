@@ -12,7 +12,7 @@
 @implementation WordPicker
 
 - (void)next {
-	if (test) {
+	/*if (test) {
 		chinese = @"测试";
 		english = @"test";
 		test = NO;
@@ -20,12 +20,26 @@
 		chinese = @"苹果";
 		english	= @"apple";
 		test = YES;
-	}
+	}*/
+	
+	//bug inside
+	const int MAX_LENGTH = 100;
+	char line[MAX_LENGTH + 1];
+	fgets(line, MAX_LENGTH, wordFile);
+	NSString *string = [NSString stringWithCString:line encoding:NSUTF8StringEncoding];
+	NSArray *wordArray = [string componentsSeparatedByString:@"#"];
+	english = [wordArray objectAtIndex:1];
+	chinese = [wordArray objectAtIndex:2];
 }
 
 - (id)init {
 	if (self = [super init]) {
-		test = YES;
+		//test = YES;
+		wordFile = fopen("word.txt", "r");
+		if (!wordFile) {
+			NSLog(@"I hate YOU");
+			exit(-1);
+		}
 	}
 	return self;
 }
