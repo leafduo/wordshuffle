@@ -23,7 +23,7 @@
 	}*/
 	
 	//bug inside
-	const int MAX_LENGTH = 100;
+	const int MAX_LENGTH = 1000;
 	char line[MAX_LENGTH + 1];
 	fgets(line, MAX_LENGTH, wordFile);
 	NSString *string = [NSString stringWithCString:line encoding:NSUTF8StringEncoding];
