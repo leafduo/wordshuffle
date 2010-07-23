@@ -11,8 +11,8 @@
 
 @interface WordPicker : NSObject {
 	//BOOL test;
-	FILE *wordFile;
 	NSString *chinese, *english;
+	NSArray *wordList;
 }
 
 @property(readonly) NSString *chinese, *english;
