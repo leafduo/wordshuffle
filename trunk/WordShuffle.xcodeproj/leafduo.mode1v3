@@ -235,7 +235,7 @@
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>924DF3FC11F9D39100C66874</string>
+						<string>924DF44A11F9E81800C66874</string>
 						<key>history</key>
 						<array>
 							<string>924DF3E811F9D34F00C66874</string>
@@ -275,7 +275,7 @@
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>924DF3FF11F9D39100C66874</string>
+						<string>924DF44B11F9E81800C66874</string>
 						<key>history</key>
 						<array>
 							<string>924DF3E711F9D34500C66874</string>
@@ -329,8 +329,6 @@
 			<key>Layout</key>
 			<array>
 				<dict>
-					<key>BecomeActive</key>
-					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -416,6 +414,8 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -433,7 +433,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>924DF3F911F9D39100C66874</string>
+										<string>924DF44911F9E81800C66874</string>
 										<key>history</key>
 										<array>
 											<string>92C28B2C11F8852100394597</string>
@@ -442,10 +442,10 @@
 											<string>92EBA96D11F9D25D004EEC54</string>
 											<string>92EBA96E11F9D25D004EEC54</string>
 											<string>92EBA97211F9D25D004EEC54</string>
-											<string>924DF3F511F9D39100C66874</string>
-											<string>924DF3F611F9D39100C66874</string>
-											<string>924DF3F711F9D39100C66874</string>
-											<string>924DF3F811F9D39100C66874</string>
+											<string>924DF44511F9E81800C66874</string>
+											<string>924DF44611F9E81800C66874</string>
+											<string>924DF44711F9E81800C66874</string>
+											<string>924DF44811F9E81800C66874</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -626,7 +626,7 @@
 	<key>StatusbarIsVisible</key>
 	<true/>
 	<key>TimeStamp</key>
-	<real>301585297.112073</real>
+	<real>301590552.59759301</real>
 	<key>ToolbarConfigUserDefaultsMinorVersion</key>
 	<string>2</string>
 	<key>ToolbarDisplayMode</key>
@@ -643,7 +643,9 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>924DF40011F9D39100C66874</string>
+		<string>924DF44311F9E13300C66874</string>
+		<string>92D0F1F811F8325A00AF3222</string>
+		<string>924DF43711F9DA3300C66874</string>
 		<string>924DF40111F9D39100C66874</string>
 		<string>924DF40211F9D39100C66874</string>
 		<string>1C78EAAD065D492600B07095</string>
@@ -1028,22 +1030,42 @@
 			<false/>
 		</dict>
 		<dict>
+			<key>FirstTimeWindowDisplayed</key>
+			<false/>
 			<key>Identifier</key>
 			<string>windowTool.snapshots</string>
+			<key>IsVertical</key>
+			<true/>
 			<key>Layout</key>
 			<array>
 				<dict>
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
+							<key>ContentConfiguration</key>
+							<dict>
+								<key>PBXProjectModuleGUID</key>
+								<string>924DF44211F9E13300C66874</string>
+								<key>PBXProjectModuleLabel</key>
+								<string>Snapshots</string>
+							</dict>
+							<key>GeometryConfiguration</key>
+							<dict>
+								<key>Frame</key>
+								<string>{{0, 0}, {1005, 509}}</string>
+								<key>RubberWindowFrame</key>
+								<string>235 172 1005 550 0 0 1440 878 </string>
+							</dict>
 							<key>Module</key>
 							<string>XCSnapshotModule</string>
 							<key>Proportion</key>
-							<string>100%</string>
+							<string>509pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
-					<string>100%</string>
+					<string>509pt</string>
 				</dict>
 			</array>
 			<key>Name</key>
@@ -1053,13 +1075,21 @@
 				<string>XCSnapshotModule</string>
 			</array>
 			<key>StatusbarIsVisible</key>
-			<string>Yes</string>
+			<true/>
+			<key>TableOfContents</key>
+			<array>
+				<string>924DF44311F9E13300C66874</string>
+				<string>924DF44411F9E13300C66874</string>
+				<string>924DF44211F9E13300C66874</string>
+			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.snapshots</string>
 			<key>WindowString</key>
-			<string>315 824 300 550 0 0 1440 878 </string>
+			<string>235 172 1005 550 0 0 1440 878 </string>
+			<key>WindowToolGUID</key>
+			<string>924DF44311F9E13300C66874</string>
 			<key>WindowToolIsVisible</key>
-			<string>Yes</string>
+			<false/>
 		</dict>
 		<dict>
 			<key>FirstTimeWindowDisplayed</key>
@@ -1528,7 +1558,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>92D0F1F811F8325A00AF3222</string>
-				<string>92C28AB111F8780E00394597</string>
+				<string>924DF43A11F9E0FA00C66874</string>
 				<string>92D0F1F711F8325A00AF3222</string>
 			</array>
 			<key>WindowString</key>

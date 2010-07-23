@@ -12,6 +12,7 @@
 @interface WordPicker : NSObject {
 	NSString *chinese, *english;
 	NSArray *wordList;
+	NSUInteger count;
 }
 
 @property(readonly) NSString *chinese, *english;
