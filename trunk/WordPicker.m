@@ -32,8 +32,10 @@
 	int index = arc4random()%[wordList count];
 	NSString *string = [wordList objectAtIndex:index];
 	NSArray *wordArray = [string componentsSeparatedByString:@"#"];
+	[english release];
 	english = [[NSString alloc] initWithString:[wordArray objectAtIndex:1]];
 	NSLog(@"%@", english);
+	[chinese release];
 	chinese = [[NSString alloc] initWithString:[wordArray objectAtIndex:2]];
 	NSLog(@"%@", chinese);
 }
