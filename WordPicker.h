@@ -10,7 +10,8 @@
 
 
 @interface WordPicker : NSObject {
-	BOOL test;
+	//BOOL test;
+	FILE *wordFile;
 	NSString *chinese, *english;
 }
 
