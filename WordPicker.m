@@ -12,23 +12,6 @@
 @implementation WordPicker
 
 - (void)next {
-	/*if (test) {
-		chinese = @"测试";
-		english = @"test";
-		test = NO;
-	} else {
-		chinese = @"苹果";
-		english	= @"apple";
-		test = YES;
-	}*/
-	
-	/*//bug inside
-	const int MAX_LENGTH = 1000;
-	char line[MAX_LENGTH + 1];
-	fgets(line, MAX_LENGTH, wordFile);
-	NSString *string = [NSString stringWithCString:line encoding:NSUTF8StringEncoding];*/
-	
-
 	int index = arc4random()%[wordList count];
 	NSString *string = [wordList objectAtIndex:index];
 	NSArray *wordArray = [string componentsSeparatedByString:@"#"];
