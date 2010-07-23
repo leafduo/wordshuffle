@@ -22,25 +22,29 @@
 		test = YES;
 	}*/
 	
-	//bug inside
+	/*//bug inside
 	const int MAX_LENGTH = 1000;
 	char line[MAX_LENGTH + 1];
 	fgets(line, MAX_LENGTH, wordFile);
-	NSString *string = [NSString stringWithCString:line encoding:NSUTF8StringEncoding];
+	NSString *string = [NSString stringWithCString:line encoding:NSUTF8StringEncoding];*/
+	
+
+	int index = arc4random()%[wordList count];
+	NSString *string = [wordList objectAtIndex:index];
 	NSArray *wordArray = [string componentsSeparatedByString:@"#"];
-	english = [wordArray objectAtIndex:1];
-	chinese = [wordArray objectAtIndex:2];
+	english = [[NSString alloc] initWithString:[wordArray objectAtIndex:1]];
+	NSLog(@"%@", english);
+	chinese = [[NSString alloc] initWithString:[wordArray objectAtIndex:2]];
+	NSLog(@"%@", chinese);
 }
 
 - (id)init {
 	if (self = [super init]) {
-		//test = YES;
-		wordFile = fopen("word.txt", "r");
-		if (!wordFile) {
-			NSLog(@"I hate YOU");
-			exit(-1);
+		NSString *allWords = [[NSString alloc] initWithContentsOfFile:@"word.txt" encoding:NSUTF8StringEncoding error:nil];
+		wordList = [allWords componentsSeparatedByString:@"\n"];
+		[wordList retain];
+		[allWords release];
 		}
-	}
 	return self;
 }
 
