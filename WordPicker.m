@@ -12,7 +12,7 @@
 @implementation WordPicker
 
 - (void)next {
-	int index = arc4random()%[wordList count];
+	NSUInteger index = arc4random()%count;
 	NSString *string = [wordList objectAtIndex:index];
 	NSArray *wordArray = [string componentsSeparatedByString:@"#"];
 	[english release];
@@ -27,6 +27,7 @@
 	if (self = [super init]) {
 		NSString *allWords = [[NSString alloc] initWithContentsOfFile:@"word.txt" encoding:NSUTF8StringEncoding error:nil];
 		wordList = [allWords componentsSeparatedByString:@"\n"];
+		count = [wordList count];
 		[wordList retain];
 		[allWords release];
 		}
