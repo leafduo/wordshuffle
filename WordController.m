@@ -15,11 +15,10 @@
 	[Chinese setStringValue:picker.chinese];
 	
 	[Chinese setHidden:YES];
-	[NSTimer scheduledTimerWithTimeInterval:1 target:self selector:@selector(displayTranslation) userInfo:nil repeats:NO];
+	[NSTimer scheduledTimerWithTimeInterval:3 target:self selector:@selector(displayTranslation) userInfo:nil repeats:NO];
 }
 
 - (void)displayTranslation {
-	NSLog(@"Here");
 	[Chinese setHidden:NO];
 	[NSTimer scheduledTimerWithTimeInterval:2 target:self selector:@selector(changeWord) userInfo:nil repeats:NO];
 }
