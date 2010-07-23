@@ -1318,7 +1318,7 @@
 			<object class="NSWindowTemplate" id="972006081">
 				<int key="NSWindowStyleMask">8211</int>
 				<int key="NSWindowBacking">2</int>
-				<string key="NSWindowRect">{{1085, 69}, {270, 62}}</string>
+				<string key="NSWindowRect">{{1085, 39}, {334, 92}}</string>
 				<int key="NSWTFlags">1954021376</int>
 				<string key="NSWindowTitle">WordShuffle</string>
 				<string key="NSWindowClass">NSPanel</string>
@@ -1332,7 +1332,7 @@
 						<object class="NSTextField" id="319304607">
 							<reference key="NSNextResponder" ref="439893737"/>
 							<int key="NSvFlags">268</int>
-							<string key="NSFrame">{{17, 20}, {116, 22}}</string>
+							<string key="NSFrame">{{17, 50}, {300, 22}}</string>
 							<reference key="NSSuperview" ref="439893737"/>
 							<bool key="NSEnabled">YES</bool>
 							<object class="NSTextFieldCell" key="NSCell" id="333150015">
@@ -1368,7 +1368,7 @@
 						<object class="NSTextField" id="640738972">
 							<reference key="NSNextResponder" ref="439893737"/>
 							<int key="NSvFlags">268</int>
-							<string key="NSFrame">{{135, 20}, {118, 22}}</string>
+							<string key="NSFrame">{{17, 20}, {300, 22}}</string>
 							<reference key="NSSuperview" ref="439893737"/>
 							<bool key="NSEnabled">YES</bool>
 							<object class="NSTextFieldCell" key="NSCell" id="770005186">
@@ -1382,7 +1382,7 @@
 							</object>
 						</object>
 					</object>
-					<string key="NSFrameSize">{270, 62}</string>
+					<string key="NSFrameSize">{334, 92}</string>
 					<reference key="NSSuperview"/>
 					<int key="NSViewLayerContentsRedrawPolicy">2</int>
 				</object>
@@ -3571,9 +3571,9 @@
 					<integer value="1"/>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<integer value="1"/>
-					<string>{{476, 229}, {270, 62}}</string>
+					<string>{{379, 193}, {334, 92}}</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
-					<string>{{476, 229}, {270, 62}}</string>
+					<string>{{379, 193}, {334, 92}}</string>
 					<integer value="1"/>
 					<string>{{33, 99}, {480, 360}}</string>
 					<string>{3.40282e+38, 3.40282e+38}</string>
