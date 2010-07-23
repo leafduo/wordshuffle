@@ -1354,14 +1354,9 @@
 										<bytes key="NSWhite">MC42NjY2NjY2NjY3AA</bytes>
 									</object>
 								</object>
-								<object class="NSColor" key="NSTextColor" id="596920561">
-									<int key="NSColorSpace">6</int>
-									<string key="NSCatalogName">System</string>
-									<string key="NSColorName">controlTextColor</string>
-									<object class="NSColor" key="NSColor">
-										<int key="NSColorSpace">3</int>
-										<bytes key="NSWhite">MAA</bytes>
-									</object>
+								<object class="NSColor" key="NSTextColor" id="646619900">
+									<int key="NSColorSpace">1</int>
+									<bytes key="NSRGB">MSAxIDEAA</bytes>
 								</object>
 							</object>
 						</object>
@@ -1378,7 +1373,7 @@
 								<reference key="NSSupport" ref="406748780"/>
 								<reference key="NSControlView" ref="640738972"/>
 								<reference key="NSBackgroundColor" ref="304910018"/>
-								<reference key="NSTextColor" ref="596920561"/>
+								<reference key="NSTextColor" ref="646619900"/>
 							</object>
 						</object>
 					</object>
@@ -3571,9 +3566,9 @@
 					<integer value="1"/>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<integer value="1"/>
-					<string>{{379, 193}, {334, 92}}</string>
+					<string>{{448, 139}, {334, 92}}</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
-					<string>{{379, 193}, {334, 92}}</string>
+					<string>{{448, 139}, {334, 92}}</string>
 					<integer value="1"/>
 					<string>{{33, 99}, {480, 360}}</string>
 					<string>{3.40282e+38, 3.40282e+38}</string>
