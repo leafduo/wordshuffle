@@ -248,6 +248,19 @@
 			92814419120044180024A709 /* PBXTextBookmark */ = 92814419120044180024A709 /* PBXTextBookmark */;
 			9281441D120044250024A709 /* PBXTextBookmark */ = 9281441D120044250024A709 /* PBXTextBookmark */;
 			9281441E120044260024A709 /* PBXTextBookmark */ = 9281441E120044260024A709 /* PBXTextBookmark */;
+			92814424120046CA0024A709 /* PBXTextBookmark */ = 92814424120046CA0024A709 /* PBXTextBookmark */;
+			92814425120046CC0024A709 /* PBXTextBookmark */ = 92814425120046CC0024A709 /* PBXTextBookmark */;
+			928144331200470C0024A709 /* PBXTextBookmark */ = 928144331200470C0024A709 /* PBXTextBookmark */;
+			928144341200470D0024A709 /* PBXTextBookmark */ = 928144341200470D0024A709 /* PBXTextBookmark */;
+			92814443120048730024A709 /* PBXTextBookmark */ = 92814443120048730024A709 /* PBXTextBookmark */;
+			92814444120048760024A709 /* PBXTextBookmark */ = 92814444120048760024A709 /* PBXTextBookmark */;
+			92814445120048760024A709 /* PBXTextBookmark */ = 92814445120048760024A709 /* PBXTextBookmark */;
+			92814446120048760024A709 /* PBXTextBookmark */ = 92814446120048760024A709 /* PBXTextBookmark */;
+			9281444A120048C10024A709 /* PBXTextBookmark */ = 9281444A120048C10024A709 /* PBXTextBookmark */;
+			9281444C120048CB0024A709 /* PBXTextBookmark */ = 9281444C120048CB0024A709 /* PBXTextBookmark */;
+			9281444D120048D30024A709 /* PBXTextBookmark */ = 9281444D120048D30024A709 /* PBXTextBookmark */;
+			92814451120048E50024A709 /* PBXTextBookmark */ = 92814451120048E50024A709 /* PBXTextBookmark */;
+			92814452120048E70024A709 /* PBXTextBookmark */ = 92814452120048E70024A709 /* PBXTextBookmark */;
 			929BD55D11FCAE5E0026649B = 929BD55D11FCAE5E0026649B /* PBXTextBookmark */;
 			92C28B2C11F8852100394597 = 92C28B2C11F8852100394597 /* PBXTextBookmark */;
 			92C28B9811F888A400394597 = 92C28B9811F888A400394597 /* PBXTextBookmark */;
@@ -424,8 +437,8 @@
 	92814308120032E20024A709 /* StatusitemController.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1092, 613}}";
-			sepNavSelRange = "{585, 0}";
-			sepNavVisRange = "{0, 760}";
+			sepNavSelRange = "{822, 0}";
+			sepNavVisRange = "{0, 873}";
 		};
 	};
 	9281432C120037260024A709 /* PBXTextBookmark */ = {
@@ -625,7 +638,7 @@
 		fRef = 92814308120032E20024A709 /* StatusitemController.m */;
 		name = "StatusitemController.m: 25";
 		rLen = 0;
-		rLoc = 712;
+		rLoc = 825;
 		rType = 0;
 		vrLen = 624;
 		vrLoc = 0;
@@ -694,7 +707,7 @@
 		fRef = 92814308120032E20024A709 /* StatusitemController.m */;
 		name = "StatusitemController.m: 25";
 		rLen = 0;
-		rLoc = 712;
+		rLoc = 825;
 		rType = 0;
 		vrLen = 627;
 		vrLoc = 0;
@@ -744,7 +757,7 @@
 		fRef = 92814308120032E20024A709 /* StatusitemController.m */;
 		name = "StatusitemController.m: 25";
 		rLen = 0;
-		rLoc = 712;
+		rLoc = 825;
 		rType = 0;
 		vrLen = 627;
 		vrLoc = 0;
@@ -754,7 +767,7 @@
 		fRef = 92814308120032E20024A709 /* StatusitemController.m */;
 		name = "StatusitemController.m: 25";
 		rLen = 0;
-		rLoc = 712;
+		rLoc = 825;
 		rType = 0;
 		vrLen = 652;
 		vrLoc = 0;
@@ -814,7 +827,7 @@
 		fRef = 92814308120032E20024A709 /* StatusitemController.m */;
 		name = "StatusitemController.m: 20";
 		rLen = 0;
-		rLoc = 511;
+		rLoc = 509;
 		rType = 0;
 		vrLen = 707;
 		vrLoc = 0;
@@ -834,7 +847,7 @@
 		fRef = 92814308120032E20024A709 /* StatusitemController.m */;
 		name = "StatusitemController.m: 20";
 		rLen = 0;
-		rLoc = 623;
+		rLoc = 669;
 		rType = 0;
 		vrLen = 623;
 		vrLoc = 0;
@@ -844,7 +857,7 @@
 		fRef = 92814308120032E20024A709 /* StatusitemController.m */;
 		name = "StatusitemController.m: 20";
 		rLen = 0;
-		rLoc = 623;
+		rLoc = 669;
 		rType = 0;
 		vrLen = 590;
 		vrLoc = 0;
@@ -864,7 +877,7 @@
 		fRef = 92814308120032E20024A709 /* StatusitemController.m */;
 		name = "StatusitemController.m: 23";
 		rLen = 0;
-		rLoc = 679;
+		rLoc = 725;
 		rType = 0;
 		vrLen = 603;
 		vrLoc = 0;
@@ -884,7 +897,7 @@
 		fRef = 92814308120032E20024A709 /* StatusitemController.m */;
 		name = "StatusitemController.m: 19";
 		rLen = 0;
-		rLoc = 528;
+		rLoc = 526;
 		rType = 0;
 		vrLen = 620;
 		vrLoc = 0;
@@ -904,7 +917,7 @@
 		fRef = 92814308120032E20024A709 /* StatusitemController.m */;
 		name = "StatusitemController.m: 23";
 		rLen = 0;
-		rLoc = 679;
+		rLoc = 725;
 		rType = 0;
 		vrLen = 607;
 		vrLoc = 0;
@@ -924,7 +937,7 @@
 		fRef = 92814308120032E20024A709 /* StatusitemController.m */;
 		name = "StatusitemController.m: 23";
 		rLen = 0;
-		rLoc = 670;
+		rLoc = 716;
 		rType = 0;
 		vrLen = 619;
 		vrLoc = 0;
@@ -954,7 +967,7 @@
 		fRef = 92814308120032E20024A709 /* StatusitemController.m */;
 		name = "StatusitemController.m: 23";
 		rLen = 0;
-		rLoc = 679;
+		rLoc = 725;
 		rType = 0;
 		vrLen = 629;
 		vrLoc = 0;
@@ -984,7 +997,7 @@
 		fRef = 92814308120032E20024A709 /* StatusitemController.m */;
 		name = "StatusitemController.m: 19";
 		rLen = 0;
-		rLoc = 510;
+		rLoc = 508;
 		rType = 0;
 		vrLen = 629;
 		vrLoc = 0;
@@ -1004,7 +1017,7 @@
 		fRef = 92814308120032E20024A709 /* StatusitemController.m */;
 		name = "StatusitemController.m: 19";
 		rLen = 0;
-		rLoc = 510;
+		rLoc = 508;
 		rType = 0;
 		vrLen = 629;
 		vrLoc = 0;
@@ -1014,7 +1027,7 @@
 		fRef = 92814308120032E20024A709 /* StatusitemController.m */;
 		name = "StatusitemController.m: 27";
 		rLen = 0;
-		rLoc = 759;
+		rLoc = 872;
 		rType = 0;
 		vrLen = 629;
 		vrLoc = 0;
@@ -1024,7 +1037,7 @@
 		fRef = 92814308120032E20024A709 /* StatusitemController.m */;
 		name = "StatusitemController.m: 27";
 		rLen = 0;
-		rLoc = 759;
+		rLoc = 872;
 		rType = 0;
 		vrLen = 629;
 		vrLoc = 0;
@@ -1034,7 +1047,7 @@
 		fRef = 92814308120032E20024A709 /* StatusitemController.m */;
 		name = "StatusitemController.m: 19";
 		rLen = 0;
-		rLoc = 510;
+		rLoc = 508;
 		rType = 0;
 		vrLen = 628;
 		vrLoc = 0;
@@ -1054,7 +1067,7 @@
 		fRef = 92814308120032E20024A709 /* StatusitemController.m */;
 		name = "StatusitemController.m: 20";
 		rLen = 0;
-		rLoc = 622;
+		rLoc = 668;
 		rType = 0;
 		vrLen = 759;
 		vrLoc = 0;
@@ -1074,9 +1087,139 @@
 		fRef = 92814308120032E20024A709 /* StatusitemController.m */;
 		name = "StatusitemController.m: 20";
 		rLen = 0;
-		rLoc = 585;
+		rLoc = 631;
 		rType = 0;
 		vrLen = 760;
+		vrLoc = 0;
+	};
+	92814424120046CA0024A709 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 92814307120032E20024A709 /* StatusitemController.h */;
+		name = "StatusitemController.h: 15";
+		rLen = 0;
+		rLoc = 254;
+		rType = 0;
+		vrLen = 287;
+		vrLoc = 0;
+	};
+	92814425120046CC0024A709 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 92814308120032E20024A709 /* StatusitemController.m */;
+		name = "StatusitemController.m: 20";
+		rLen = 0;
+		rLoc = 645;
+		rType = 0;
+		vrLen = 760;
+		vrLoc = 0;
+	};
+	928144331200470C0024A709 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 92814307120032E20024A709 /* StatusitemController.h */;
+		name = "StatusitemController.h: 15";
+		rLen = 0;
+		rLoc = 254;
+		rType = 0;
+		vrLen = 287;
+		vrLoc = 0;
+	};
+	928144341200470D0024A709 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 92814308120032E20024A709 /* StatusitemController.m */;
+		name = "StatusitemController.m: 20";
+		rLen = 0;
+		rLoc = 535;
+		rType = 0;
+		vrLen = 808;
+		vrLoc = 0;
+	};
+	92814443120048730024A709 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 92814307120032E20024A709 /* StatusitemController.h */;
+		name = "StatusitemController.h: 15";
+		rLen = 0;
+		rLoc = 254;
+		rType = 0;
+		vrLen = 287;
+		vrLoc = 0;
+	};
+	92814444120048760024A709 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 92814307120032E20024A709 /* StatusitemController.h */;
+		name = "StatusitemController.h: 15";
+		rLen = 0;
+		rLoc = 273;
+		rType = 0;
+		vrLen = 293;
+		vrLoc = 0;
+	};
+	92814445120048760024A709 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 92814308120032E20024A709 /* StatusitemController.m */;
+		name = "StatusitemController.m: 22";
+		rLen = 0;
+		rLoc = 690;
+		rType = 0;
+		vrLen = 808;
+		vrLoc = 0;
+	};
+	92814446120048760024A709 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 92814308120032E20024A709 /* StatusitemController.m */;
+		name = "StatusitemController.m: 30";
+		rLen = 0;
+		rLoc = 825;
+		rType = 0;
+		vrLen = 875;
+		vrLoc = 0;
+	};
+	9281444A120048C10024A709 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 92814308120032E20024A709 /* StatusitemController.m */;
+		name = "StatusitemController.m: 19";
+		rLen = 0;
+		rLoc = 489;
+		rType = 0;
+		vrLen = 873;
+		vrLoc = 0;
+	};
+	9281444C120048CB0024A709 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 92814307120032E20024A709 /* StatusitemController.h */;
+		name = "StatusitemController.h: 15";
+		rLen = 0;
+		rLoc = 254;
+		rType = 0;
+		vrLen = 287;
+		vrLoc = 0;
+	};
+	9281444D120048D30024A709 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 92814308120032E20024A709 /* StatusitemController.m */;
+		name = "StatusitemController.m: 30";
+		rLen = 0;
+		rLoc = 825;
+		rType = 0;
+		vrLen = 873;
+		vrLoc = 0;
+	};
+	92814451120048E50024A709 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 92814307120032E20024A709 /* StatusitemController.h */;
+		name = "StatusitemController.h: 15";
+		rLen = 0;
+		rLoc = 254;
+		rType = 0;
+		vrLen = 287;
+		vrLoc = 0;
+	};
+	92814452120048E70024A709 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 92814308120032E20024A709 /* StatusitemController.m */;
+		name = "StatusitemController.m: 29";
+		rLen = 0;
+		rLoc = 822;
+		rType = 0;
+		vrLen = 873;
 		vrLoc = 0;
 	};
 	929BD55D11FCAE5E0026649B /* PBXTextBookmark */ = {
