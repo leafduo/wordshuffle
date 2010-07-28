@@ -16,10 +16,12 @@
 	[item retain];
 	[item setTitle:@"WS"];
 	menu = [[NSMenu alloc] initWithTitle:@"Menu"];
-	NSMenuItem *menuItem = [[NSMenuItem alloc] initWithTitle:@"test" action:NULL keyEquivalent:@""];
-	[menuItem retain];
-	[menu addItem:menuItem];
+	[[menu addItemWithTitle:@"Reopen Window" action:@selector(reopenWindow:) keyEquivalent:@""] setTarget:self];
 	[item setMenu:menu];
+}
+
+- (void)reopenWindow:(id)sender {
+	[mainWindow orderFront:self];
 }
 
 @end

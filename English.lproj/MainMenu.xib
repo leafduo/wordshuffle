@@ -1393,7 +1393,7 @@
 			<object class="NSCustomObject" id="650035217">
 				<string key="NSClassName">WordController</string>
 			</object>
-			<object class="NSCustomObject" id="829827769">
+			<object class="NSCustomObject" id="238988279">
 				<string key="NSClassName">StatusitemController</string>
 			</object>
 		</object>
@@ -2095,6 +2095,14 @@
 						<reference key="destination" ref="640738972"/>
 					</object>
 					<int key="connectionID">547</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">mainWindow</string>
+						<reference key="source" ref="238988279"/>
+						<reference key="destination" ref="972006081"/>
+					</object>
+					<int key="connectionID">553</int>
 				</object>
 			</object>
 			<object class="IBMutableOrderedSet" key="objectRecords">
@@ -3179,7 +3187,7 @@
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">552</int>
-						<reference key="object" ref="829827769"/>
+						<reference key="object" ref="238988279"/>
 						<reference key="parent" ref="0"/>
 					</object>
 				</object>
@@ -3719,7 +3727,7 @@
 				</object>
 			</object>
 			<nil key="sourceID"/>
-			<int key="maxID">552</int>
+			<int key="maxID">553</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -3727,6 +3735,17 @@
 				<object class="IBPartialClassDescription">
 					<string key="className">StatusitemController</string>
 					<string key="superclassName">NSObject</string>
+					<object class="NSMutableDictionary" key="outlets">
+						<string key="NS.key.0">mainWindow</string>
+						<string key="NS.object.0">NSPanel</string>
+					</object>
+					<object class="NSMutableDictionary" key="toOneOutletInfosByName">
+						<string key="NS.key.0">mainWindow</string>
+						<object class="IBToOneOutletInfo" key="NS.object.0">
+							<string key="name">mainWindow</string>
+							<string key="candidateClassName">NSPanel</string>
+						</object>
+					</object>
 					<object class="IBClassDescriptionSource" key="sourceIdentifier">
 						<string key="majorKey">IBProjectSource</string>
 						<string key="minorKey">StatusitemController.h</string>

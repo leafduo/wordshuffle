@@ -12,6 +12,7 @@
 @interface StatusitemController : NSObject {
 	NSStatusItem *item;
 	NSMenu *menu;
+	IBOutlet NSPanel *mainWindow;
 }
 
 @end
