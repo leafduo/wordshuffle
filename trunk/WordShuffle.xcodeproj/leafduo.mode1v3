@@ -248,6 +248,8 @@
 			<key>Layout</key>
 			<array>
 				<dict>
+					<key>BecomeActive</key>
+					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -295,8 +297,8 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>5</integer>
-									<integer>1</integer>
+									<integer>16</integer>
+									<integer>13</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -333,8 +335,6 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -352,7 +352,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>928143421200379B0024A709</string>
+										<string>92814413120043C60024A709</string>
 										<key>history</key>
 										<array>
 											<string>92C28B2C11F8852100394597</string>
@@ -363,10 +363,10 @@
 											<string>92814330120037260024A709</string>
 											<string>92814331120037260024A709</string>
 											<string>92814332120037260024A709</string>
-											<string>92814333120037260024A709</string>
-											<string>92814334120037260024A709</string>
-											<string>92814335120037260024A709</string>
-											<string>92814336120037260024A709</string>
+											<string>9281436A12003AAE0024A709</string>
+											<string>9281436B12003AAE0024A709</string>
+											<string>9281437212003AD50024A709</string>
+											<string>9281440F120043970024A709</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -547,7 +547,7 @@
 	<key>StatusbarIsVisible</key>
 	<true/>
 	<key>TimeStamp</key>
-	<real>302004123.60706598</real>
+	<real>302007238.90012997</real>
 	<key>ToolbarConfigUserDefaultsMinorVersion</key>
 	<string>2</string>
 	<key>ToolbarDisplayMode</key>
@@ -564,11 +564,12 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>9281440C1200438A0024A709</string>
 		<string>92814338120037260024A709</string>
 		<string>92814339120037260024A709</string>
 		<string>1C78EAAD065D492600B07095</string>
-		<string>920AACEB11F828F000C6DC7A</string>
 		<string>1CD10A99069EF8BA00B06720</string>
+		<string>920AACEB11F828F000C6DC7A</string>
 		<string>/Users/leafduo/Cocoa/WordShuffle/WordShuffle.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
@@ -593,7 +594,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string></string>
+								<string>StatusitemController.h</string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
@@ -788,7 +789,7 @@
 			<key>WindowToolGUID</key>
 			<string>1CD10A99069EF8BA00B06720</string>
 			<key>WindowToolIsVisible</key>
-			<true/>
+			<false/>
 		</dict>
 		<dict>
 			<key>FirstTimeWindowDisplayed</key>
