@@ -13,7 +13,8 @@
 
 - (void)next {
 	if (!isFileOpen) {
-		chinese = english = @"File not open.";
+		english = @"No file selected.";
+		chinese = @"";
 		return;
 	}
 	NSUInteger index = arc4random()%count;
