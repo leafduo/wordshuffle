@@ -18,14 +18,20 @@
 	menu = [[NSMenu alloc] initWithTitle:@"Menu"];
 	[[menu addItemWithTitle:@"Hide/Reopen" action:@selector(hideOrReopen:) keyEquivalent:@""] setTarget:self];
 	[[menu addItemWithTitle:@"Preferences..." action:@selector(selectFile:) keyEquivalent:@""] setTarget:self];
-	[[menu addItemWithTitle:@"Select Word File" action:NULL keyEquivalent:@""] setTarget:nil];
+	[[menu addItemWithTitle:@"Select Word File" action:@selector(selectFile:) keyEquivalent:@""] setTarget:self];
     [menu addItem: [NSMenuItem separatorItem]];
 	[[menu addItemWithTitle:@"Quit" action:@selector(quit:) keyEquivalent:@""] setTarget:self];
 	[item setMenu:menu];
 }
 
 - (void)selectFile:(id)sender {
-	
+	NSOpenPanel *openPanel = [NSOpenPanel openPanel];
+	[openPanel beginWithCompletionHandler:^(NSInteger result) {
+		if (result == NSFileHandlingPanelOKButton) {
+			NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+			[defaults setURL:[openPanel URL] forKey:@"wordFilePath"];
+		}
+	}];
 }
 
 - (void)hideOrReopen:(id)sender {

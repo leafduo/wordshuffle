@@ -12,6 +12,10 @@
 @implementation WordPicker
 
 - (void)next {
+	if (!isFileOpen) {
+		chinese = english = @"File not open.";
+		return;
+	}
 	NSUInteger index = arc4random()%count;
 	NSString *string = [wordList objectAtIndex:index];
 	NSArray *wordArray = [string componentsSeparatedByString:@"#"];
@@ -25,7 +29,15 @@
 
 - (id)init {
 	if (self = [super init]) {
-		NSString *allWords = [[NSString alloc] initWithContentsOfFile:@"word.txt" encoding:NSUTF8StringEncoding error:nil];
+		NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+		NSURL *url = [defaults URLForKey:@"wordFilePath"];
+		if (url == nil)
+			isFileOpen = NO;
+		else
+			isFileOpen = YES;
+
+		NSLog(@"URL: %@", [url path]);
+		NSString *allWords = [[NSString alloc] initWithContentsOfFile:[url path] encoding:NSUTF8StringEncoding error:nil];
 		wordList = [allWords componentsSeparatedByString:@"\n"];
 		count = [wordList count];
 		[wordList retain];
