@@ -13,6 +13,7 @@
 	NSString *chinese, *english;
 	NSArray *wordList;
 	NSUInteger count;
+	BOOL isFileOpen;
 }
 
 @property(readonly) NSString *chinese, *english;
