@@ -11,8 +11,11 @@
 
 @interface StatusitemController : NSObject {
 	NSStatusItem *item;
-	NSMenu *menu;
+	IBOutlet NSMenu *menu;
 	IBOutlet NSPanel *mainWindow;
 }
+
+- (IBAction)selectFile:(id)sender;
+- (IBAction)hideOrReopen:(id)sender;
 
 @end
