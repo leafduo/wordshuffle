@@ -14,9 +14,10 @@
 - (void)awakeFromNib {
 	item = [[NSStatusBar systemStatusBar] statusItemWithLength:NSVariableStatusItemLength];
 	[item retain];
-	NSBundle *bundle = [NSBundle	mainBundle];
+	NSBundle *bundle = [NSBundle mainBundle];
 	NSImage *icon = [[NSImage alloc]initWithContentsOfFile:[bundle pathForResource:@"icon" ofType:@"png"]];
 	[item setImage:icon];
+	//[item setTitle:@"WS"];
 	[item setHighlightMode:YES];
 	[item setMenu:menu];
 }
