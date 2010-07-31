@@ -6,7 +6,6 @@
 //
 
 #import "WordController.h"
-#import "WordPicker.h"
 
 @implementation WordController
 - (void)changeWord {
@@ -36,6 +35,9 @@
 }
 
 - (void)awakeFromNib {
+	if (!picker.isFileOpen) {
+		[statusitem selectFile:self];
+	}
 	[self changeWord];
 }
 
