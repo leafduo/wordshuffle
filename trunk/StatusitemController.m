@@ -26,7 +26,7 @@
 
 - (void)selectFile:(id)sender {
 	NSOpenPanel *openPanel = [NSOpenPanel openPanel];
-	[openPanel beginWithCompletionHandler:^(NSInteger result) {
+	[openPanel beginSheetModalForWindow:mainWindow completionHandler:^(NSInteger result) {
 		if (result == NSFileHandlingPanelOKButton) {
 			NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
 			[defaults setURL:[openPanel URL] forKey:@"wordFilePath"];
