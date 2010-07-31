@@ -14,17 +14,14 @@
 - (void)awakeFromNib {
 	item = [[NSStatusBar systemStatusBar] statusItemWithLength:NSVariableStatusItemLength];
 	[item retain];
-	[item setTitle:@"WS"];
-	menu = [[NSMenu alloc] initWithTitle:@"Menu"];
-	[[menu addItemWithTitle:@"Hide/Reopen" action:@selector(hideOrReopen:) keyEquivalent:@""] setTarget:self];
-	[[menu addItemWithTitle:@"Preferences..." action:nil keyEquivalent:@""] setTarget:nil];
-	[[menu addItemWithTitle:@"Select Word File" action:@selector(selectFile:) keyEquivalent:@""] setTarget:self];
-    [menu addItem: [NSMenuItem separatorItem]];
-	[[menu addItemWithTitle:@"Quit" action:@selector(quit:) keyEquivalent:@""] setTarget:self];
+	NSBundle *buble = [NSBundle	mainBundle];
+	NSImage *icon = [[NSImage alloc]initWithContentsOfFile:[buble pathForResource:@"icon" ofType:@"png"]];
+	[item setImage:icon];
+	[item setHighlightMode:YES];
 	[item setMenu:menu];
 }
 
-- (void)selectFile:(id)sender {
+- (IBAction)selectFile:(id)sender {
 	NSOpenPanel *openPanel = [NSOpenPanel openPanel];
 	[openPanel beginSheetModalForWindow:mainWindow completionHandler:^(NSInteger result) {
 		if (result == NSFileHandlingPanelOKButton) {
@@ -34,16 +31,12 @@
 	}];
 }
 
-- (void)hideOrReopen:(id)sender {
+- (IBAction)hideOrReopen:(id)sender {
 	if ([mainWindow isVisible]) {
 		[mainWindow close];
 	} else {
 		[mainWindow orderFront:self];
 	}
-}
-
-- (void)quit:(id)sender {
-	[NSApp terminate:self];
 }
 
 @end
