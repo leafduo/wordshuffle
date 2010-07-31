@@ -17,7 +17,7 @@
 	[item setTitle:@"WS"];
 	menu = [[NSMenu alloc] initWithTitle:@"Menu"];
 	[[menu addItemWithTitle:@"Hide/Reopen" action:@selector(hideOrReopen:) keyEquivalent:@""] setTarget:self];
-	[[menu addItemWithTitle:@"Preferences..." action:@selector(selectFile:) keyEquivalent:@""] setTarget:self];
+	[[menu addItemWithTitle:@"Preferences..." action:nil keyEquivalent:@""] setTarget:nil];
 	[[menu addItemWithTitle:@"Select Word File" action:@selector(selectFile:) keyEquivalent:@""] setTarget:self];
     [menu addItem: [NSMenuItem separatorItem]];
 	[[menu addItemWithTitle:@"Quit" action:@selector(quit:) keyEquivalent:@""] setTarget:self];
