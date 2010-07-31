@@ -17,6 +17,7 @@
 }
 
 @property(readonly) NSString *chinese, *english;
+@property(readonly) BOOL isFileOpen;
 
 - (void)next;
 

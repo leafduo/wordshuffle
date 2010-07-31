@@ -47,5 +47,5 @@
 	return self;
 }
 
-@synthesize chinese, english;
+@synthesize chinese, english, isFileOpen;
 @end

@@ -7,10 +7,12 @@
 
 #import <Cocoa/Cocoa.h>
 #import "WordPicker.h"
+#import "StatusitemController.h"
 
 @interface WordController : NSObject {
     IBOutlet NSTextField* Chinese;
     IBOutlet NSTextField* English;
+	IBOutlet StatusitemController *statusitem;
 	WordPicker *picker;
 }
 

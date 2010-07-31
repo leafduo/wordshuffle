@@ -248,6 +248,8 @@
 			<key>Layout</key>
 			<array>
 				<dict>
+					<key>BecomeActive</key>
+					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -295,7 +297,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>5</integer>
+									<integer>7</integer>
 									<integer>1</integer>
 									<integer>0</integer>
 								</array>
@@ -333,14 +335,12 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>StatusitemController.m</string>
+								<string>WordController.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -348,26 +348,26 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>StatusitemController.m</string>
+										<string>WordController.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>92F5CB8A1204030300D6B0FE</string>
+										<string>92F5CBCE1204089A00D6B0FE</string>
 										<key>history</key>
 										<array>
 											<string>9281432D120037260024A709</string>
 											<string>9281432E120037260024A709</string>
 											<string>92182C3312008E8300758A42</string>
-											<string>92F5CB1C1203FACF00D6B0FE</string>
 											<string>92F5CB1D1203FACF00D6B0FE</string>
 											<string>92F5CB221203FACF00D6B0FE</string>
-											<string>92F5CB65120401AD00D6B0FE</string>
-											<string>92F5CB66120401AD00D6B0FE</string>
-											<string>92F5CB67120401AD00D6B0FE</string>
 											<string>92F5CB68120401AD00D6B0FE</string>
-											<string>92F5CB881204030300D6B0FE</string>
 											<string>92F5CB891204030300D6B0FE</string>
-											<string>92F5CB7F120402E800D6B0FE</string>
+											<string>92F5CB9A1204074E00D6B0FE</string>
+											<string>92F5CB9C1204074E00D6B0FE</string>
+											<string>92F5CBBB1204083400D6B0FE</string>
+											<string>92F5CBBC1204083400D6B0FE</string>
+											<string>92F5CBCD1204089A00D6B0FE</string>
+											<string>92F5CBC61204088900D6B0FE</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -548,7 +548,7 @@
 	<key>StatusbarIsVisible</key>
 	<true/>
 	<key>TimeStamp</key>
-	<real>302252803.88858902</real>
+	<real>302254234.76018798</real>
 	<key>ToolbarConfigUserDefaultsMinorVersion</key>
 	<string>2</string>
 	<key>ToolbarDisplayMode</key>
@@ -565,7 +565,7 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>92F5CB8B1204030300D6B0FE</string>
+		<string>92F5CBCF1204089A00D6B0FE</string>
 		<string>92F5CB291203FACF00D6B0FE</string>
 		<string>92F5CB2A1203FACF00D6B0FE</string>
 		<string>1C78EAAD065D492600B07095</string>
@@ -595,7 +595,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>StatusitemController.m</string>
+								<string>WordController.h</string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
