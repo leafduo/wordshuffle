@@ -2,7 +2,7 @@
 {
 	089C165DFE840E0CC02AAC07 /* English */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1092, 568}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1092, 582}}";
 			sepNavSelRange = "{0, 0}";
 			sepNavVisRange = "{0, 45}";
 			sepNavWindowFrame = "{{15, 241}, {631, 632}}";
@@ -201,6 +201,12 @@
 			92F6EBF6120877BD006580CC /* PBXTextBookmark */ = 92F6EBF6120877BD006580CC /* PBXTextBookmark */;
 			92F6EBF7120877BD006580CC /* PBXTextBookmark */ = 92F6EBF7120877BD006580CC /* PBXTextBookmark */;
 			92F6EBF8120877BD006580CC /* PBXTextBookmark */ = 92F6EBF8120877BD006580CC /* PBXTextBookmark */;
+			92F6EC041208787A006580CC /* PBXTextBookmark */ = 92F6EC041208787A006580CC /* PBXTextBookmark */;
+			92F6EC051208787A006580CC /* PlistBookmark */ = 92F6EC051208787A006580CC /* PlistBookmark */;
+			92F6EC061208787A006580CC /* PBXBookmark */ = 92F6EC061208787A006580CC /* PBXBookmark */;
+			92F6EC071208787A006580CC /* PBXTextBookmark */ = 92F6EC071208787A006580CC /* PBXTextBookmark */;
+			92F6EC081208787A006580CC /* PBXTextBookmark */ = 92F6EC081208787A006580CC /* PBXTextBookmark */;
+			92F6EC091208787A006580CC /* PBXTextBookmark */ = 92F6EC091208787A006580CC /* PBXTextBookmark */;
 		};
 		sourceControlManager = 920AACD011F8279D00C6DC7A /* Source Control */;
 		userBuildSettings = {
@@ -360,7 +366,7 @@
 	92CAFBF8120858CE007D7A56 /* English */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1092, 582}}";
-			sepNavSelRange = "{82, 0}";
+			sepNavSelRange = "{80, 0}";
 			sepNavVisRange = "{0, 82}";
 			sepNavVisRect = "{{0, 0}, {1106, 568}}";
 			sepNavWindowFrame = "{{38, 220}, {631, 632}}";
@@ -596,6 +602,62 @@
 		rLoc = 72;
 		rType = 0;
 		vrLen = 72;
+		vrLoc = 0;
+	};
+	92F6EC041208787A006580CC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 089C165DFE840E0CC02AAC07 /* English */;
+		name = "InfoPlist.strings: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 45;
+		vrLoc = 0;
+	};
+	92F6EC051208787A006580CC /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* WordShuffle-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleSignature,
+		);
+		name = "/Users/leafduo/Cocoa/WordShuffle/WordShuffle-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	92F6EC061208787A006580CC /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 92F5CB171203FAB300D6B0FE /* icon.png */;
+	};
+	92F6EC071208787A006580CC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 92CAFBFB12085920007D7A56 /* zh_CN */;
+		name = "Localizable.strings: 3";
+		rLen = 0;
+		rLoc = 72;
+		rType = 0;
+		vrLen = 72;
+		vrLoc = 0;
+	};
+	92F6EC081208787A006580CC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 92CAFBF8120858CE007D7A56 /* English */;
+		name = "Localizable.strings: 3";
+		rLen = 0;
+		rLoc = 72;
+		rType = 0;
+		vrLen = 72;
+		vrLoc = 0;
+	};
+	92F6EC091208787A006580CC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 92CAFBF8120858CE007D7A56 /* English */;
+		name = "Localizable.strings: 2";
+		rLen = 0;
+		rLoc = 80;
+		rType = 0;
+		vrLen = 82;
 		vrLoc = 0;
 	};
 }
