@@ -22,19 +22,13 @@
 	[NSTimer scheduledTimerWithTimeInterval:2 target:self selector:@selector(changeWord) userInfo:nil repeats:NO];
 }
 
-- (id)init {
-	if (self = [super init]) {
-		picker = [[WordPicker alloc] init];
-	}
-	return self;
-}
-
 - (void)dealloc {
 	[picker release];
 	[super dealloc];
 }
 
 - (void)awakeFromNib {
+	picker = [[WordPicker alloc] init];
 	if (!picker.isFileOpen) {
 		[statusitem selectFile:self];
 	}
