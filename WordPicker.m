@@ -13,7 +13,7 @@
 
 - (void)next {
 	if (!isFileOpen) {
-		english = @"No file selected.";
+		english = NSLocalizedString(@"No file selected.", nil);
 		chinese = @"";
 		return;
 	}

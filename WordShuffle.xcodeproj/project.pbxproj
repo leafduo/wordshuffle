@@ -12,6 +12,7 @@
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 		92814309120032E20024A709 /* StatusitemController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92814308120032E20024A709 /* StatusitemController.m */; };
+		92CAFBF9120858CE007D7A56 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 92CAFBF7120858CE007D7A56 /* Localizable.strings */; };
 		92EBA96911F9D24B004EEC54 /* WordController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92D0F21911F8369900AF3222 /* WordController.m */; };
 		92EBA96A11F9D24C004EEC54 /* WordPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C28B2711F8843600394597 /* WordPicker.m */; };
 		92EBA96C11F9D24E004EEC54 /* WordShuffleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 256AC3D90F4B6AC300CF3369 /* WordShuffleAppDelegate.m */; };
@@ -35,6 +36,9 @@
 		92814308120032E20024A709 /* StatusitemController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatusitemController.m; sourceTree = "<group>"; };
 		92C28B2611F8843600394597 /* WordPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WordPicker.h; sourceTree = "<group>"; };
 		92C28B2711F8843600394597 /* WordPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WordPicker.m; sourceTree = "<group>"; };
+		92CAFBE41208535C007D7A56 /* zh_CN */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = zh_CN; path = zh_CN.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		92CAFBF8120858CE007D7A56 /* English */ = {isa = PBXFileReference; fileEncoding = 2483028224; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/Localizable.strings; sourceTree = "<group>"; };
+		92CAFBFB12085920007D7A56 /* zh_CN */ = {isa = PBXFileReference; fileEncoding = 2483028224; lastKnownFileType = text.plist.strings; name = zh_CN; path = zh_CN.lproj/Localizable.strings; sourceTree = "<group>"; };
 		92D0F21811F8369900AF3222 /* WordController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WordController.h; sourceTree = "<group>"; };
 		92D0F21911F8369900AF3222 /* WordController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WordController.m; sourceTree = "<group>"; };
 		92F5CB171203FAB300D6B0FE /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
@@ -121,6 +125,7 @@
 				8D1107310486CEB800E47090 /* WordShuffle-Info.plist */,
 				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
 				1DDD58140DA1D0A300B32029 /* MainMenu.xib */,
+				92CAFBF7120858CE007D7A56 /* Localizable.strings */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -163,6 +168,13 @@
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "WordShuffle" */;
 			compatibilityVersion = "Xcode 3.2";
 			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				zh_CN,
+			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* WordShuffle */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -180,6 +192,7 @@
 				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
 				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
 				92F5CB181203FAB300D6B0FE /* icon.png in Resources */,
+				92CAFBF9120858CE007D7A56 /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,8 +226,18 @@
 			isa = PBXVariantGroup;
 			children = (
 				1DDD58150DA1D0A300B32029 /* English */,
+				92CAFBE41208535C007D7A56 /* zh_CN */,
 			);
 			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		92CAFBF7120858CE007D7A56 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92CAFBF8120858CE007D7A56 /* English */,
+				92CAFBFB12085920007D7A56 /* zh_CN */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
