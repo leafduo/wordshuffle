@@ -11,14 +11,14 @@
 	256AC3D80F4B6AC300CF3369 /* WordShuffleAppDelegate.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1092, 572}}";
-			sepNavSelRange = "{105, 11}";
+			sepNavSelRange = "{189, 0}";
 			sepNavVisRange = "{0, 316}";
 		};
 	};
 	256AC3D90F4B6AC300CF3369 /* WordShuffleAppDelegate.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1092, 572}}";
-			sepNavSelRange = "{116, 0}";
+			sepNavIntBoundsRect = "{{0, 0}, {1092, 549}}";
+			sepNavSelRange = "{142, 0}";
 			sepNavVisRange = "{0, 373}";
 			sepNavWindowFrame = "{{107, 250}, {893, 539}}";
 		};
@@ -212,6 +212,13 @@
 			92AF6BDB1209BE0400185D01 /* PBXTextBookmark */ = 92AF6BDB1209BE0400185D01 /* PBXTextBookmark */;
 			92AF6BDC1209BE0400185D01 /* PBXTextBookmark */ = 92AF6BDC1209BE0400185D01 /* PBXTextBookmark */;
 			92AF6BDD1209BE0400185D01 /* PBXTextBookmark */ = 92AF6BDD1209BE0400185D01 /* PBXTextBookmark */;
+			92AF6BE81209BE2C00185D01 /* PBXTextBookmark */ = 92AF6BE81209BE2C00185D01 /* PBXTextBookmark */;
+			92AF6BE91209BE2C00185D01 /* PBXTextBookmark */ = 92AF6BE91209BE2C00185D01 /* PBXTextBookmark */;
+			92AF6BEA1209BE2C00185D01 /* PBXTextBookmark */ = 92AF6BEA1209BE2C00185D01 /* PBXTextBookmark */;
+			92AF6BEB1209BE2C00185D01 /* PBXTextBookmark */ = 92AF6BEB1209BE2C00185D01 /* PBXTextBookmark */;
+			92AF6BEC1209BE2C00185D01 /* PBXTextBookmark */ = 92AF6BEC1209BE2C00185D01 /* PBXTextBookmark */;
+			92AF6BED1209BE2C00185D01 /* PBXTextBookmark */ = 92AF6BED1209BE2C00185D01 /* PBXTextBookmark */;
+			92AF6BEE1209BE2C00185D01 /* PBXTextBookmark */ = 92AF6BEE1209BE2C00185D01 /* PBXTextBookmark */;
 			92CAFD0612087767007D7A56 = 92CAFD0612087767007D7A56 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 920AACD011F8279D00C6DC7A /* Source Control */;
@@ -345,7 +352,7 @@
 	};
 	929393EA1209783400476465 /* PreferenceController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1092, 1716}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1092, 1794}}";
 			sepNavSelRange = "{113, 0}";
 			sepNavVisRange = "{0, 1246}";
 			sepNavWindowFrame = "{{15, 241}, {631, 632}}";
@@ -398,7 +405,7 @@
 		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
 		name = "main.m: 13";
 		rLen = 0;
-		rLoc = 191;
+		rLoc = 185;
 		rType = 0;
 		vrLen = 246;
 		vrLoc = 0;
@@ -408,7 +415,7 @@
 		fRef = 256AC3D80F4B6AC300CF3369 /* WordShuffleAppDelegate.h */;
 		name = "WordShuffleAppDelegate.h: 18";
 		rLen = 0;
-		rLoc = 322;
+		rLoc = 316;
 		rType = 0;
 		vrLen = 322;
 		vrLoc = 0;
@@ -418,7 +425,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* WordShuffleAppDelegate.m */;
 		name = "WordShuffleAppDelegate.m: 9";
 		rLen = 0;
-		rLoc = 183;
+		rLoc = 177;
 		rType = 0;
 		vrLen = 379;
 		vrLoc = 0;
@@ -428,7 +435,7 @@
 		fRef = 92814307120032E20024A709 /* StatusitemController.h */;
 		name = "StatusitemController.h: 14";
 		rLen = 0;
-		rLoc = 262;
+		rLoc = 256;
 		rType = 0;
 		vrLen = 375;
 		vrLoc = 0;
@@ -452,7 +459,7 @@
 		fRef = 92814308120032E20024A709 /* StatusitemController.m */;
 		name = "StatusitemController.m: 34";
 		rLen = 0;
-		rLoc = 1120;
+		rLoc = 1114;
 		rType = 0;
 		vrLen = 1217;
 		vrLoc = 49;
@@ -462,7 +469,7 @@
 		fRef = 929393E91209783400476465 /* PreferenceController.h */;
 		name = "PreferenceController.h: 15";
 		rLen = 0;
-		rLoc = 312;
+		rLoc = 306;
 		rType = 0;
 		vrLen = 443;
 		vrLoc = 0;
@@ -472,7 +479,7 @@
 		fRef = 929393EA1209783400476465 /* PreferenceController.m */;
 		name = "PreferenceController.m: 124";
 		rLen = 0;
-		rLoc = 4027;
+		rLoc = 4021;
 		rType = 0;
 		vrLen = 1325;
 		vrLoc = 2826;
@@ -482,7 +489,7 @@
 		fRef = 92D0F21811F8369900AF3222 /* WordController.h */;
 		name = "WordController.h: 15";
 		rLen = 10;
-		rLoc = 347;
+		rLoc = 341;
 		rType = 0;
 		vrLen = 403;
 		vrLoc = 0;
@@ -492,7 +499,7 @@
 		fRef = 92D0F21911F8369900AF3222 /* WordController.m */;
 		name = "WordController.m: 33";
 		rLen = 0;
-		rLoc = 780;
+		rLoc = 774;
 		rType = 0;
 		vrLen = 827;
 		vrLoc = 0;
@@ -502,7 +509,7 @@
 		fRef = 92C28B2611F8843600394597 /* WordPicker.h */;
 		name = "WordPicker.h: 23";
 		rLen = 0;
-		rLoc = 389;
+		rLoc = 383;
 		rType = 0;
 		vrLen = 395;
 		vrLoc = 0;
@@ -522,7 +529,7 @@
 		fRef = 92C28B2711F8843600394597 /* WordPicker.m */;
 		name = "WordPicker.m: 50";
 		rLen = 0;
-		rLoc = 1330;
+		rLoc = 1324;
 		rType = 0;
 		vrLen = 1280;
 		vrLoc = 405;
@@ -532,7 +539,7 @@
 		fRef = 92C28B2711F8843600394597 /* WordPicker.m */;
 		name = "WordPicker.m: 50";
 		rLen = 0;
-		rLoc = 1330;
+		rLoc = 1324;
 		rType = 0;
 		vrLen = 1332;
 		vrLoc = 353;
@@ -563,7 +570,7 @@
 		fRef = 92C28B2711F8843600394597 /* WordPicker.m */;
 		name = "WordPicker.m: 50";
 		rLen = 0;
-		rLoc = 1330;
+		rLoc = 1324;
 		rType = 0;
 		vrLen = 1372;
 		vrLoc = 313;
@@ -573,7 +580,7 @@
 		fRef = 92C28B2611F8843600394597 /* WordPicker.h */;
 		name = "WordPicker.h: 12";
 		rLen = 0;
-		rLoc = 197;
+		rLoc = 191;
 		rType = 0;
 		vrLen = 395;
 		vrLoc = 0;
@@ -668,19 +675,89 @@
 		vrLen = 827;
 		vrLoc = 0;
 	};
+	92AF6BE81209BE2C00185D01 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 92D0F21911F8369900AF3222 /* WordController.m */;
+		name = "WordController.m: 33";
+		rLen = 0;
+		rLoc = 774;
+		rType = 0;
+		vrLen = 827;
+		vrLoc = 0;
+	};
+	92AF6BE91209BE2C00185D01 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 92C28B2611F8843600394597 /* WordPicker.h */;
+		name = "WordPicker.h: 12";
+		rLen = 0;
+		rLoc = 191;
+		rType = 0;
+		vrLen = 389;
+		vrLoc = 0;
+	};
+	92AF6BEA1209BE2C00185D01 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 92C28B2711F8843600394597 /* WordPicker.m */;
+		name = "WordPicker.m: 50";
+		rLen = 0;
+		rLoc = 1324;
+		rType = 0;
+		vrLen = 1202;
+		vrLoc = 0;
+	};
+	92AF6BEB1209BE2C00185D01 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 929393EA1209783400476465 /* PreferenceController.m */;
+		name = "PreferenceController.m: 6";
+		rLen = 0;
+		rLoc = 113;
+		rType = 0;
+		vrLen = 1246;
+		vrLoc = 0;
+	};
+	92AF6BEC1209BE2C00185D01 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D80F4B6AC300CF3369 /* WordShuffleAppDelegate.h */;
+		name = "WordShuffleAppDelegate.h: 11";
+		rLen = 0;
+		rLoc = 189;
+		rType = 0;
+		vrLen = 316;
+		vrLoc = 0;
+	};
+	92AF6BED1209BE2C00185D01 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* WordShuffleAppDelegate.m */;
+		name = "WordShuffleAppDelegate.m: 6";
+		rLen = 0;
+		rLoc = 116;
+		rType = 0;
+		vrLen = 373;
+		vrLoc = 0;
+	};
+	92AF6BEE1209BE2C00185D01 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* WordShuffleAppDelegate.m */;
+		name = "WordShuffleAppDelegate.m: 8";
+		rLen = 0;
+		rLoc = 142;
+		rType = 0;
+		vrLen = 373;
+		vrLoc = 0;
+	};
 	92C28B2611F8843600394597 /* WordPicker.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1092, 572}}";
-			sepNavSelRange = "{197, 0}";
-			sepNavVisRange = "{0, 395}";
+			sepNavSelRange = "{191, 0}";
+			sepNavVisRange = "{0, 389}";
 			sepNavWindowFrame = "{{84, 252}, {750, 558}}";
 		};
 	};
 	92C28B2711F8843600394597 /* WordPicker.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1092, 819}}";
-			sepNavSelRange = "{1330, 0}";
-			sepNavVisRange = "{313, 1372}";
+			sepNavSelRange = "{1324, 0}";
+			sepNavVisRange = "{0, 1202}";
 			sepNavWindowFrame = "{{308, 4}, {750, 558}}";
 		};
 	};
