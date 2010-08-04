@@ -11,8 +11,6 @@
 
 @implementation StatusitemController
 
-
-
 - (void)awakeFromNib {
 	item = [[NSStatusBar systemStatusBar] statusItemWithLength:NSVariableStatusItemLength];
 	[item retain];
@@ -29,6 +27,8 @@
 		if (result == NSFileHandlingPanelOKButton) {
 			NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
 			[defaults setURL:[openPanel URL] forKey:@"wordFilePath"];
+			NSString *WSWordFileChangedNotification = @"WSWordFileChangedNotification";
+			[[NSNotificationCenter defaultCenter]postNotificationName:WSWordFileChangedNotification object:self];
 		}
 	}];
 }

@@ -28,21 +28,32 @@
 	NSLog(@"%@", chinese);
 }
 
+- (void)readWordFile {
+	NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+	NSURL *url = [defaults URLForKey:@"wordFilePath"];
+	if (url == nil)
+		isFileOpen = NO;
+	else
+		isFileOpen = YES;
+	NSLog(@"URL: %@", [url path]);
+	NSString *allWords = [[NSString alloc] initWithContentsOfFile:[url path] encoding:NSUTF8StringEncoding error:nil];
+	[wordList release];
+	wordList = [allWords componentsSeparatedByString:@"\n"];
+	[wordList retain];
+	[allWords release];
+	count = [wordList count];
+}
+
+- (void)wordFileDidChange:(NSNotification *)notification {
+	NSLog(@"wordFileDidChange called");
+	[self readWordFile];
+}
+
 - (id)init {
 	if (self = [super init]) {
-		NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
-		NSURL *url = [defaults URLForKey:@"wordFilePath"];
-		if (url == nil)
-			isFileOpen = NO;
-		else
-			isFileOpen = YES;
-
-		NSLog(@"URL: %@", [url path]);
-		NSString *allWords = [[NSString alloc] initWithContentsOfFile:[url path] encoding:NSUTF8StringEncoding error:nil];
-		wordList = [allWords componentsSeparatedByString:@"\n"];
-		count = [wordList count];
-		[wordList retain];
-		[allWords release];
+		[self readWordFile];
+		NSString *WSWordFileChangedNotification = @"WSWordFileChangedNotification";
+		[[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(wordFileDidChange:) name:WSWordFileChangedNotification object:nil];
 		}
 	return self;
 }
