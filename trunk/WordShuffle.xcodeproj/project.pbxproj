@@ -14,6 +14,7 @@
 		92814309120032E20024A709 /* StatusitemController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92814308120032E20024A709 /* StatusitemController.m */; };
 		929393EB1209783400476465 /* PreferenceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 929393EA1209783400476465 /* PreferenceController.m */; };
 		9293956A1209A80D00476465 /* Preferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = 929395691209A80D00476465 /* Preferences.xib */; };
+		92AF6BF61209C0B800185D01 /* WordShuffle.icns in Resources */ = {isa = PBXBuildFile; fileRef = 92AF6BF51209C0B800185D01 /* WordShuffle.icns */; };
 		92CAFBF9120858CE007D7A56 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 92CAFBF7120858CE007D7A56 /* Localizable.strings */; };
 		92EBA96911F9D24B004EEC54 /* WordController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92D0F21911F8369900AF3222 /* WordController.m */; };
 		92EBA96A11F9D24C004EEC54 /* WordPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C28B2711F8843600394597 /* WordPicker.m */; };
@@ -40,6 +41,7 @@
 		929393E91209783400476465 /* PreferenceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreferenceController.h; sourceTree = "<group>"; };
 		929393EA1209783400476465 /* PreferenceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreferenceController.m; sourceTree = "<group>"; };
 		9293956B1209A81500476465 /* zh_CN */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = zh_CN; path = zh_CN.lproj/Preferences.xib; sourceTree = "<group>"; };
+		92AF6BF51209C0B800185D01 /* WordShuffle.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = WordShuffle.icns; sourceTree = "<group>"; };
 		92C28B2611F8843600394597 /* WordPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WordPicker.h; sourceTree = "<group>"; };
 		92C28B2711F8843600394597 /* WordPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WordPicker.m; sourceTree = "<group>"; };
 		92CAFBE41208535C007D7A56 /* zh_CN */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = zh_CN; path = zh_CN.lproj/MainMenu.xib; sourceTree = "<group>"; };
@@ -129,6 +131,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				92AF6BF51209C0B800185D01 /* WordShuffle.icns */,
 				92F5CB171203FAB300D6B0FE /* icon.png */,
 				8D1107310486CEB800E47090 /* WordShuffle-Info.plist */,
 				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
@@ -206,6 +209,7 @@
 				92F5CB181203FAB300D6B0FE /* icon.png in Resources */,
 				92CAFBF9120858CE007D7A56 /* Localizable.strings in Resources */,
 				9293956A1209A80D00476465 /* Preferences.xib in Resources */,
+				92AF6BF61209C0B800185D01 /* WordShuffle.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
