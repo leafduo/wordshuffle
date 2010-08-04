@@ -13,7 +13,7 @@
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 		92814309120032E20024A709 /* StatusitemController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92814308120032E20024A709 /* StatusitemController.m */; };
 		929393EB1209783400476465 /* PreferenceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 929393EA1209783400476465 /* PreferenceController.m */; };
-		92939401120978E000476465 /* Preferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = 929393E31209748B00476465 /* Preferences.xib */; };
+		9293956A1209A80D00476465 /* Preferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = 929395691209A80D00476465 /* Preferences.xib */; };
 		92CAFBF9120858CE007D7A56 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 92CAFBF7120858CE007D7A56 /* Localizable.strings */; };
 		92EBA96911F9D24B004EEC54 /* WordController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92D0F21911F8369900AF3222 /* WordController.m */; };
 		92EBA96A11F9D24C004EEC54 /* WordPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C28B2711F8843600394597 /* WordPicker.m */; };
@@ -36,9 +36,10 @@
 		8D1107320486CEB800E47090 /* WordShuffle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WordShuffle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92814307120032E20024A709 /* StatusitemController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatusitemController.h; sourceTree = "<group>"; };
 		92814308120032E20024A709 /* StatusitemController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatusitemController.m; sourceTree = "<group>"; };
-		929393E31209748B00476465 /* Preferences.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Preferences.xib; sourceTree = "<group>"; };
+		929393E31209748B00476465 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/Preferences.xib; sourceTree = "<group>"; };
 		929393E91209783400476465 /* PreferenceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreferenceController.h; sourceTree = "<group>"; };
 		929393EA1209783400476465 /* PreferenceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreferenceController.m; sourceTree = "<group>"; };
+		9293956B1209A81500476465 /* zh_CN */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = zh_CN; path = zh_CN.lproj/Preferences.xib; sourceTree = "<group>"; };
 		92C28B2611F8843600394597 /* WordPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WordPicker.h; sourceTree = "<group>"; };
 		92C28B2711F8843600394597 /* WordPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WordPicker.m; sourceTree = "<group>"; };
 		92CAFBE41208535C007D7A56 /* zh_CN */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = zh_CN; path = zh_CN.lproj/MainMenu.xib; sourceTree = "<group>"; };
@@ -133,7 +134,7 @@
 				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
 				1DDD58140DA1D0A300B32029 /* MainMenu.xib */,
 				92CAFBF7120858CE007D7A56 /* Localizable.strings */,
-				929393E31209748B00476465 /* Preferences.xib */,
+				929395691209A80D00476465 /* Preferences.xib */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -201,7 +202,7 @@
 				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
 				92F5CB181203FAB300D6B0FE /* icon.png in Resources */,
 				92CAFBF9120858CE007D7A56 /* Localizable.strings in Resources */,
-				92939401120978E000476465 /* Preferences.xib in Resources */,
+				9293956A1209A80D00476465 /* Preferences.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,6 +240,15 @@
 				92CAFBE41208535C007D7A56 /* zh_CN */,
 			);
 			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		929395691209A80D00476465 /* Preferences.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				929393E31209748B00476465 /* English */,
+				9293956B1209A81500476465 /* zh_CN */,
+			);
+			name = Preferences.xib;
 			sourceTree = "<group>";
 		};
 		92CAFBF7120858CE007D7A56 /* Localizable.strings */ = {

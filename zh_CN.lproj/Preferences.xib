@@ -43,7 +43,7 @@
 				<int key="NSWindowBacking">2</int>
 				<string key="NSWindowRect">{{196, 365}, {342, 145}}</string>
 				<int key="NSWTFlags">544735232</int>
-				<string key="NSWindowTitle">Preferences</string>
+				<string key="NSWindowTitle">偏好设置</string>
 				<string key="NSWindowClass">NSWindow</string>
 				<nil key="NSViewClass"/>
 				<string key="NSWindowContentMaxSize">{1.79769e+308, 1.79769e+308}</string>
@@ -75,11 +75,11 @@
 												<object class="NSButtonCell" key="NSCell" id="1072095282">
 													<int key="NSCellFlags">-2080244224</int>
 													<int key="NSCellFlags2">0</int>
-													<string key="NSContents">Startup at login</string>
-													<object class="NSFont" key="NSSupport" id="1054506091">
-														<string key="NSName">LucidaGrande</string>
+													<string key="NSContents">登录时启动</string>
+													<object class="NSFont" key="NSSupport">
+														<string key="NSName">STHeitiSC-Light</string>
 														<double key="NSSize">13</double>
-														<int key="NSfFlags">1044</int>
+														<int key="NSfFlags">16</int>
 													</object>
 													<reference key="NSControlView" ref="412745615"/>
 													<int key="NSButtonFlags">1211912703</int>
@@ -101,7 +101,7 @@
 										<string key="NSFrame">{{10, 33}, {296, 95}}</string>
 										<reference key="NSSuperview" ref="45697835"/>
 									</object>
-									<string key="NSLabel">Tab</string>
+									<string key="NSLabel">常规</string>
 									<object class="NSColor" key="NSColor" id="308355026">
 										<int key="NSColorSpace">6</int>
 										<string key="NSCatalogName">System</string>
@@ -120,13 +120,17 @@
 										<int key="NSvFlags">256</int>
 										<string key="NSFrame">{{10, 33}, {296, 95}}</string>
 									</object>
-									<string key="NSLabel">View</string>
+									<string key="NSLabel">吃撑了</string>
 									<reference key="NSColor" ref="308355026"/>
 									<reference key="NSTabView" ref="45697835"/>
 								</object>
 							</object>
 							<reference key="NSSelectedTabViewItem" ref="730056492"/>
-							<reference key="NSFont" ref="1054506091"/>
+							<object class="NSFont" key="NSFont">
+								<string key="NSName">LucidaGrande</string>
+								<double key="NSSize">13</double>
+								<int key="NSfFlags">1044</int>
+							</object>
 							<int key="NSTvFlags">0</int>
 							<bool key="NSAllowTruncatedLabels">YES</bool>
 							<bool key="NSDrawsBackground">YES</bool>
@@ -295,9 +299,9 @@
 				</object>
 				<object class="NSMutableArray" key="dict.values">
 					<bool key="EncodedWithXMLCoder">YES</bool>
-					<string>{{519, 75}, {342, 145}}</string>
+					<string>{{497, 111}, {342, 145}}</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
-					<string>{{519, 75}, {342, 145}}</string>
+					<string>{{497, 111}, {342, 145}}</string>
 					<boolean value="NO"/>
 					<string>{196, 240}</string>
 					<string>{{202, 428}, {480, 270}}</string>
@@ -842,7 +846,7 @@
 			<integer value="3000" key="NS.object.0"/>
 		</object>
 		<bool key="IBDocument.PluginDeclaredDependenciesTrackSystemTargetVersion">YES</bool>
-		<string key="IBDocument.LastKnownRelativeProjectPath">WordShuffle.xcodeproj</string>
+		<string key="IBDocument.LastKnownRelativeProjectPath">../WordShuffle.xcodeproj</string>
 		<int key="IBDocument.defaultPropertyAccessControl">3</int>
 		<object class="NSMutableDictionary" key="IBDocument.LastKnownImageSizes">
 			<string key="NS.key.0">NSSwitch</string>
