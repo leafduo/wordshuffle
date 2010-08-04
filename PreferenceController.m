@@ -3,7 +3,7 @@
 //  WordShuffle
 //
 //  Created by leafduo on 8/4/10.
-//  Copyright 2010 __MyCompanyName__. All rights reserved.
+//  Copyright 2010 leafduo.com. All rights reserved.
 //
 
 #import "PreferenceController.h"
