@@ -12,7 +12,6 @@
 @interface PreferenceController : NSObject {
 	IBOutlet NSButton *startUpAtLogin;
 	IBOutlet NSWindow *preferenceWindow;
-	NSWindowController *preferenceWindowController;
 }
 
 - (IBAction)startUpAtLoginChanged:(id)sender;

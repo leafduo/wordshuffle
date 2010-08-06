@@ -114,13 +114,11 @@
 
 - (IBAction)displayPreferenceWindow:(id)sender {
 	NSLog(@"displayPreferenceWindow called");
-	if (!preferenceWindowController) {
-		[NSBundle loadNibNamed:@"Preferences" owner:self];
-		preferenceWindowController = [[NSWindowController alloc]initWithWindow:preferenceWindow];
-	}
-	NSLog(@"preferenceWindowController: %@", preferenceWindowController);
 	NSLog(@"preferenceWindow: %@", preferenceWindow);
-	[preferenceWindowController showWindow:self];
+	if (!preferenceWindow) {
+		[NSBundle loadNibNamed:@"Preferences" owner:self];
+	}
+	[preferenceWindow makeKeyAndOrderFront:self];
 	if ([self isStartupAtLogin]) {
 		[startUpAtLogin setState:NSOnState];
 	} else {
