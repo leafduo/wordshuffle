@@ -118,6 +118,7 @@
 	if (!preferenceWindow) {
 		[NSBundle loadNibNamed:@"Preferences" owner:self];
 	}
+	[NSApp activateIgnoringOtherApps:YES];
 	[preferenceWindow makeKeyAndOrderFront:self];
 	if ([self isStartupAtLogin]) {
 		[startUpAtLogin setState:NSOnState];
