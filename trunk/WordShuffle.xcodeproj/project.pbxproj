@@ -35,12 +35,12 @@
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		8D1107310486CEB800E47090 /* WordShuffle-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "WordShuffle-Info.plist"; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* WordShuffle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WordShuffle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9269E3CA120BD44B00689625 /* zh_CN */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = zh_CN; path = zh_CN.lproj/Preferences.xib; sourceTree = "<group>"; };
 		92814307120032E20024A709 /* StatusitemController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatusitemController.h; sourceTree = "<group>"; };
 		92814308120032E20024A709 /* StatusitemController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatusitemController.m; sourceTree = "<group>"; };
 		929393E31209748B00476465 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/Preferences.xib; sourceTree = "<group>"; };
 		929393E91209783400476465 /* PreferenceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreferenceController.h; sourceTree = "<group>"; };
 		929393EA1209783400476465 /* PreferenceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreferenceController.m; sourceTree = "<group>"; };
-		9293956B1209A81500476465 /* zh_CN */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = zh_CN; path = zh_CN.lproj/Preferences.xib; sourceTree = "<group>"; };
 		92AF6BF51209C0B800185D01 /* WordShuffle.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = WordShuffle.icns; sourceTree = "<group>"; };
 		92C28B2611F8843600394597 /* WordPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WordPicker.h; sourceTree = "<group>"; };
 		92C28B2711F8843600394597 /* WordPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WordPicker.m; sourceTree = "<group>"; };
@@ -253,7 +253,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				929393E31209748B00476465 /* English */,
-				9293956B1209A81500476465 /* zh_CN */,
+				9269E3CA120BD44B00689625 /* zh_CN */,
 			);
 			name = Preferences.xib;
 			sourceTree = "<group>";
