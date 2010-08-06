@@ -109,7 +109,6 @@
 	} else {
 		[self deleteAppFromLoginItem];
 	}
-
 }
 
 - (IBAction)displayPreferenceWindow:(id)sender {
