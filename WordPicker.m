@@ -36,7 +36,9 @@
 	else
 		isFileOpen = YES;
 	NSLog(@"URL: %@", [url path]);
-	NSString *allWords = [[NSString alloc] initWithContentsOfFile:[url path] encoding:NSUTF8StringEncoding error:nil];
+	//NSString *allWords = [[NSString alloc] initWithContentsOfFile:[url path] encoding:NSUTF8StringEncoding error:nil];
+	NSString *allWords = [[NSString alloc] initWithContentsOfFile:[url path] usedEncoding:nil error:nil];	//I can guess the encoding
+	//FIXME: error handling
 	[wordList release];
 	wordList = [allWords componentsSeparatedByString:@"\n"];
 	[wordList retain];
