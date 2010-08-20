@@ -12,9 +12,9 @@
 		</object>
 		<object class="NSMutableArray" key="IBDocument.EditedObjectIDs">
 			<bool key="EncodedWithXMLCoder">YES</bool>
-			<integer value="372"/>
-			<integer value="814"/>
 			<integer value="554"/>
+			<integer value="726"/>
+			<integer value="372"/>
 		</object>
 		<object class="NSArray" key="IBDocument.PluginDependencies">
 			<bool key="EncodedWithXMLCoder">YES</bool>
@@ -128,7 +128,8 @@
 					<object class="NSMenuItem" id="735300898">
 						<reference key="NSMenu" ref="271703017"/>
 						<string key="NSTitle">Hide/Reopen</string>
-						<string key="NSKeyEquiv"/>
+						<string key="NSKeyEquiv">H</string>
+						<int key="NSKeyEquivModMask">1179648</int>
 						<int key="NSMnemonicLoc">2147483647</int>
 						<object class="NSCustomResource" key="NSOnImage" id="384980553">
 							<string key="NSClassName">NSImage</string>
@@ -911,7 +912,7 @@
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
-					<string>{{861, 83}, {173, 93}}</string>
+					<string>{{676, 487}, {211, 93}}</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
