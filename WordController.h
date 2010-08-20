@@ -14,6 +14,7 @@
     IBOutlet NSTextField* English;
 	IBOutlet StatusitemController *statusitem;
 	WordPicker *picker;
+	BOOL paused;
 	double englishWordDisplayTime;
 	double translationDisplayTime;
 }

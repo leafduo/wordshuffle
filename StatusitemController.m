@@ -34,6 +34,8 @@
 }
 
 - (IBAction)hideOrReopen:(id)sender {
+	NSString *WSHideStatusDidChangeNotification = @"WSHideStatusDidChangeNotification";
+	[[NSNotificationCenter defaultCenter]postNotificationName:WSHideStatusDidChangeNotification object:nil];
 	if ([mainWindow isVisible]) {
 		[mainWindow close];
 	} else {

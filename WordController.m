@@ -14,7 +14,9 @@
 	[Chinese setStringValue:picker.chinese];
 	
 	[Chinese setHidden:YES];
-	[NSTimer scheduledTimerWithTimeInterval:englishWordDisplayTime target:self selector:@selector(displayTranslation) userInfo:nil repeats:NO];
+	if (!paused) {
+		[NSTimer scheduledTimerWithTimeInterval:englishWordDisplayTime target:self selector:@selector(displayTranslation) userInfo:nil repeats:NO];
+	}
 }
 
 - (void)displayTranslation {
@@ -52,7 +54,17 @@
 	}
 }
 
+- (void)hideStatusDidChange {
+	if (paused) {
+		[self changeWord];
+		paused = NO;
+	} else {
+		paused = YES;
+	}
+}
+
 - (void)awakeFromNib {
+	paused = NO;
 	NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
 	englishWordDisplayTime = [defaults doubleForKey:@"englishWordDisplayTime"];
 	translationDisplayTime = [defaults doubleForKey:@"translationDisplayTime"];
@@ -66,6 +78,8 @@
 	}
 	[[NSUserDefaultsController sharedUserDefaultsController]addObserver:self forKeyPath:@"values.englishWordDisplayTime" options:NSKeyValueObservingOptionNew context:NULL];
 	[[NSUserDefaultsController sharedUserDefaultsController]addObserver:self forKeyPath:@"values.translationDisplayTime" options:NSKeyValueObservingOptionNew context:NULL];
+	NSString *WSHideStatusDidChangeNotification = @"WSHideStatusDidChangeNotification";
+	[[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(hideStatusDidChange) name:WSHideStatusDidChangeNotification object:nil];
 	picker = [[WordPicker alloc] init];
 	if (!picker.isFileOpen) {
 		[statusitem selectFile:self];
